@@ -1,0 +1,155 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Scope One', serif;
+*/
+
+
+/* BACKGROUND IMAGES */
+.about {
+	background-image: url("../images/about.gif") ;
+	}
+
+.resume {
+	background-image: url("../images/resume.gif") ;
+	}
+
+.writing {
+	background-image: url("../images/writing.gif") ;
+	}
+
+.design {
+	background-image: url("../images/design.gif") ;
+	}
+
+.media {
+	background-image: url("../images/media.gif") ;
+	}
+
+.code {
+	background-image: url("../images/code.gif") ;
+	}
+
+
+
+/* LAYOUT */
+article {
+	width: 960px ;
+	margin: 100px auto 20px auto;
+	padding: 50px 60px 40px 60px ;
+	background-color: rgba(255,255,255,0.75) ;
+	}
+
+/* PARAGRAPH STYLES */
+h1 {
+  	width: auto;
+	margin-top: 20px; 
+	margin-bottom: 40px  ;
+	font-family: 'Scope One', serif;
+  	font-size: 50px ;
+  	letter-spacing: 0.1em ;
+  	}
+
+h1.para {
+	margin-bottom: 5px ;
+	}
+
+h2 {
+	margin-top: 20px ;
+	margin-bottom: 5px ;
+    	font-family: 'Open Sans', sans-serif ;
+    	}
+
+h2.resumehead {
+	margin-top: 40px ;
+	margin-bottom: 5px ;
+	font-family: 'Scope One', serif;
+	font-size: 30px ;
+	letter-spacing: 0.1em ;
+	}
+
+h3 {
+	margin-top: 10px;
+	margin-bottom: 0px ;
+	font-family: 'Open Sans', sans-serif ;	
+	}
+
+p {
+	margin-top: 5px ;
+	line-height: 1.75em ;
+	font-family: 'Open Sans', sans-serif;	
+	}
+
+p.width {
+	width: 650px ;
+	}
+
+p.aboutp {
+	width: 480px ;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.75em ;
+	}
+
+/* IMAGES */
+
+img.aboutpic {
+	margin: 0px 40px 10px 10px ;
+	position: relative ;
+	float: right ;
+	}
+
+div.photo {
+	height: 250px  ;
+	}
+
+img.photo {
+	display: block;
+	margin: 0 40px 20px auto ;
+	float: left ;
+	}
+
+img.pdf {
+	padding-left: 10px ;
+	}
+
+/* LISTS */
+ul {
+	margin: 5px auto 20px 60px ;
+	padding-left: 0 ;
+	font-family: 'Open Sans', sans-serif;
+	}
+
+/* CHARACTER STYLES */
+#bold {
+	font-weight: bold;
+	}
+
+/* LINKS */
+a.inline {
+	color: #E14045;
+	text-decoration: none ;
+	}
+
+a.inline:hover{
+	opacity: 0.5 ;
+	}
+
+a.button {
+	display: block ;
+	width: 250px ;
+	text-align: center ;
+	margin: 25px auto 30px 80px ;
+	color: white;
+	background-color: #E14045;
+	border: 2px solid #E14045 ;
+	border-radius: 5px ;
+	text-decoration: none ;
+	padding: 10px ;
+	font-size: 25px ;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.05em ;
+	}
+
+a.button:hover {
+	background-color: #ef6468 ;
+	}
+

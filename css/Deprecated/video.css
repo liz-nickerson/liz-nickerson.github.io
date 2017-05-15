@@ -1,0 +1,36 @@
+
+/*
+body {
+  margin: 0 ;
+  background-image: url("../images/media.gif") ;
+  }
+
+article {
+  	width: 960px ;
+  	margin: 100px auto 20px auto;
+  	background-color: rgba(255,255,255,0.75) ;
+    padding: 20px 0 20px 0 ;
+  	}
+*/
+
+    h1 {
+      	width: auto;
+      	margin: auto auto 5px auto;
+      	padding: 40px 20px 0px 40px ;
+      	font-family: 'Scope One', serif;
+      	font-size: 50px ;
+      	letter-spacing: 0.1em ;
+      	}
+
+        h2 {
+        	margin: auto;
+        	padding-left: 40px ;
+        	font-family: 'Open Sans', sans-serif ;
+        	}
+
+p {
+      	width: 480px ;
+      	padding: 0px 10px 10px 40px ;
+      	font-family: 'Open Sans', sans-serif;
+      	line-height: 1.75em ;
+      	}

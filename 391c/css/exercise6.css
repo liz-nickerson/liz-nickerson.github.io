@@ -1,0 +1,36 @@
+body {
+	color: #0E0E0E;;
+	font-family: Arial;
+	background-color: #FFFFFF; }
+	
+h1 {
+	font-family: 'Fredericka the Great', cursive;
+	background-color: #98D9FC;
+	padding: 20px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;}
+
+h2, h3 {
+	padding-left: 10px;}	
+
+p {
+	font-family: "Courier New", Courier, monospace;	
+
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 1.6em;}
+
+a:link {
+	color: #DC143C;
+	text-decoration: none;}
+
+a:visited {
+	color: #AA2E00;}
+
+a:hover {
+	color: #D24D57;
+	text-decoration: underline;}
+
+a:active {
+	color: #DC143C;}
+	

@@ -1,0 +1,177 @@
+body {
+	margin: 0 ;
+	background-color: #2E2C2F;
+	}
+
+
+/* HEADER AND NAVIGATION */
+header {
+	margin: auto ;
+	text-align: center ;
+	background-image: url("../images/homebg_TEST.png") ; } 
+
+nav {
+	width: 960px ;
+	margin: 0 auto 0 auto ;
+	background-color: black ;
+	text-align: center;
+	padding-top: 10px ;
+	padding-bottom: 10px ;
+	}
+
+a.nav {
+	padding-left: 40px ;
+	font-family: "Roboto", sans-serif;
+	color: white ;
+	text-decoration: none ;
+	}
+
+a.nav:hover {
+	color: orange ;
+	text-transform: uppercase ;
+	}
+
+
+/* LAYOUT */
+article {
+	width: 960px ;
+	margin: 0 auto 20px auto ;
+	background-color: white ;
+	padding-bottom: 20px ;
+	}
+
+#home {
+	height: 900px ;
+	}
+
+#music {
+	height: 700px ;
+	}
+
+#contact {
+	height: 450px ;
+	}
+
+/* home page */
+.video {
+	float: right ;
+	padding-right: 40px ;
+	padding-top: 40px ;
+	}
+
+.social {
+	display: block ;
+	float: left ;
+	padding-left: 10px ;
+	}
+
+.homeimg {
+	padding-left: 40px ;
+	margin-top: 40px ;
+	
+	}
+
+.news {
+	width: 340px ;
+	float: left ;
+	}
+
+/* about */
+
+.member {
+	margin-top: 80px ;
+	}
+
+/* music */
+.player {
+	padding-left: 40px ;
+	}
+
+/* all */
+.rightabout {
+	float: right ;
+	padding-right: 40px ;
+	}
+
+.imgleft {
+	padding-left: 40px ;
+	}
+
+.leftabout {
+	width: 500px ;
+	}
+
+.banddesc {
+	width: 860px ;
+	}
+
+.first {
+	padding-top: 40px ;
+	}
+
+table {
+	padding-left: 40px ;
+	font-family: "Roboto", sans-serif;
+	width: 450px ;
+	text-align: center ;
+	}
+
+th {
+	padding: 5px 0 5px 0 ;
+	border-bottom: 1px dashed black ;
+	}
+
+td {
+	padding: 5px 0 5px 0 ;
+	}
+
+/* LOOK & FEEL */
+p {
+	padding-left: 40px ;
+	line-height: 1.4em ;
+	font-family: "Roboto", sans-serif;
+	padding-bottom: 20px ;
+	}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 0.1em ;
+	padding-left: 40px ;
+	font-size: 60px ;
+	margin: 0 ;
+	padding-bottom: 20px ;
+	}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 0.02em ;
+	padding-left: 40px ;
+	font-size: 40px ;
+	margin-top: 60px ;
+	}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 0.05em ;
+	padding-left: 40px ;
+	font-size: 30px ;
+	}
+
+/* LINKS */
+a.inline {
+	color: darkorange ;
+	text-decoration: none ;
+	}
+
+a.inline:hover {
+	text-decoration: underline ;
+	}
+
+
+a.sociallink {
+	padding-left: 30px ;
+	}
+
+a.sociallink:hover {
+	opacity: 0.75 ;
+	}

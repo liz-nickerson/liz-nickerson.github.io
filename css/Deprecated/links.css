@@ -1,0 +1,24 @@
+a.inline {
+  color: #E14045 ;
+  text-decoration: none ;
+  }
+
+a.inline:hover{
+  opacity: 0.5 ;
+  }
+
+a.button {
+	border: #E14045 1px solid ;
+	text-decoration: none ;
+	color: red ;
+	padding: 5px ;
+	border-radius: 5px ;
+	}
+
+a.button:hover {
+	
+	}
+
+img.pdf {
+	padding-left: 10px ;
+	}

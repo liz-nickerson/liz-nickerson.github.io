@@ -1,0 +1,50 @@
+body {
+	margin: 0 ;
+	}
+
+nav {
+	height: 30px ;
+	margin-top: 30px ;
+	margin-bottom: 10px;
+	padding-top: 15px ;
+	min-width: 960px ;
+	text-align: center ;
+	background-color: black ;
+	text-transform: lowercase ;
+	font-family: 'Open Sans', sans-serif;
+	}
+
+/* Settings for regular nav links. */
+a.nav {
+	text-decoration: none ;
+	color: white ;
+	padding-right: 40px ;
+	}
+
+/* Settings for nav drop-downs. */
+.dropdown {
+	position: relative ;
+	display: inline-block ;
+	color: white ;
+	}
+
+.dropdown-content {
+	display: none ;
+	position: absolute ;	
+	background-color: black ;
+	min-width: 200px ;
+	padding: 10px ;
+	z-index: 1 ;
+	}
+
+a.droplink {
+	display: block ;
+	color: white;
+	text-decoration: none ;
+	padding: 8px ;
+	}
+
+.dropdown:hover .dropdown-content {
+	display: block ;
+	text-align: left ;
+	}
