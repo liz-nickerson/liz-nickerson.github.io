@@ -5,7 +5,13 @@ font-family: 'Scope One', serif;
 
 
 /* BACKGROUND IMAGES */
-.about {
+
+body {
+	background-image: url("../images/home.gif") ;
+	margin: 0 ;
+	}
+
+/*.about {
 	background-image: url("../images/about.gif") ;
 	}
 
@@ -28,7 +34,7 @@ font-family: 'Scope One', serif;
 .code {
 	background-image: url("../images/code.gif") ;
 	}
-
+*/
 
 
 /* LAYOUT */
@@ -42,7 +48,7 @@ article {
 /* PARAGRAPH STYLES */
 h1 {
   	width: auto;
-	margin-top: 20px; 
+	margin-top: 20px;
 	margin-bottom: 40px  ;
 	font-family: 'Scope One', serif;
   	font-size: 50px ;
@@ -70,13 +76,13 @@ h2.resumehead {
 h3 {
 	margin-top: 10px;
 	margin-bottom: 0px ;
-	font-family: 'Open Sans', sans-serif ;	
+	font-family: 'Open Sans', sans-serif ;
 	}
 
 p {
 	margin-top: 5px ;
 	line-height: 1.75em ;
-	font-family: 'Open Sans', sans-serif;	
+	font-family: 'Open Sans', sans-serif;
 	}
 
 p.width {
@@ -119,18 +125,19 @@ ul {
 	}
 
 /* CHARACTER STYLES */
-#bold {
+.bold {
 	font-weight: bold;
 	}
 
 /* LINKS */
 a.inline {
 	color: #E14045;
-	text-decoration: none ;
+	text-decoration: underline ;
 	}
 
 a.inline:hover{
-	opacity: 0.5 ;
+	background-color: #E14045;
+	color: white ;
 	}
 
 a.button {
@@ -152,4 +159,3 @@ a.button {
 a.button:hover {
 	background-color: #ef6468 ;
 	}
-
